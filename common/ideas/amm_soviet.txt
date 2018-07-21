@@ -1,0 +1,57 @@
+ideas = {
+	country = {		
+		state_of_chock = {
+			removal_cost = -1
+
+			picture = officers_purged
+			
+			allowed = {
+				always = no # Added via focus
+			}
+	
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = -0.40
+					air_defence = -0.40
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_attack = -0.40
+					air_defence = -0.40
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_attack = -0.40
+					air_defence = -0.40
+					instant = yes
+				}
+				CAS_equipment = {
+					air_attack = -0.40
+					air_defence = -0.40
+					air_ground_attack = -0.40
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					air_attack = -0.40
+					air_defence = -0.40
+					air_ground_attack = -0.40
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_attack = -0.40
+					air_defence = -0.40
+					air_ground_attack = -0.40
+					instant = yes
+				}
+			}
+			modifier = {
+				army_org_factor = -0.3
+				army_attack_factor = -0.2
+				army_morale_factor = -0.2
+				land_reinforce_rate = -0.08
+				planning_speed = -0.5
+			}
+			
+		}
+	}	
+}

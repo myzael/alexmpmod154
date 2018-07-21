@@ -1,0 +1,127 @@
+﻿1.5.3 Changelog
+
+- Included the mod Strategic View Adjustments
+- Included the mod Allied Construction Projects
+- Included the mod More Unit Levels
+- Rebalanced Lend Lease Weights to be 10 times lower ( roughly same as moving divisions by convoy )
+- Removed changes to MEFO ( same as vanilla now + construction to rubber building )
+- Removed possibility of getting higher planning bonus then vanilla
+- US Synthetic Rubber NF now give +2 per building and 2x 75% research bonus
+- USA now get cheaper convoys/DDs from NF (-25% convoy -20% DD)
+- USA get a -50% penalty to shipbuilding and -80% penalty to naval doctrine research from the Great depression (Peacetime).
+- 3 techs now add +2% Special Forces limit, one for each type of Special Forces.
+- Lowered cost of Special Forces followup techs and all Ship and Naval Doctrine techs.
+- Change base combat width to 90
+- Increase Industry cost of late war equipment ( Tanks & Planes increase +15% per level )
+- Lower base factory efficiency gain by roughly 10%
+- Lower base Production output from 5 to 4 per MIC.
+- Max Shore bombardment is now -35% ( before leader trait )
+- Manual Planning no longer penalized ( same 2% per day decay as auto is in mod ).
+- Moved some CIC from German NFs to Italy/Japan (-4,+2.+2)
+- Japan got a +50% Research bonus in NF for either CV or BC.
+- Lowered bonus from adaptable trait and makeshift bridges ability ( by 20% ).
+- Lowered infrastructure damage from combat ( from 0.5% to 0.2% ).
+- Slightly increased how much infrastructure work when damaged ( 15% -> 25% ).
+- Lowered XP from attaches from 20% to 5%
+- Soviet get a "Shock" effect for first 90 days of Barbarossa giving severe penalties to air and land forces
+- Soviet get more penalties from Purge ( -50% max doctrines instead of -10% )
+- Soviet doctrines under mass assault now give a max of +50% effect on their partisans instead of +30%
+- Increased Resistance per VP by +50%, and resistance neighbor state spread from 50% to 80%.
+- Increased cost of all Infantry Equipment by 0.1
+- Lowered damage to ports from Strategic Bombing to 25%.
+- Change supply from 25% of incoming zones infra to 50%, and lowered base from infra to compensate ( should result in a slightly lower overall supply ).
+- Changed Offensive/Defense Abilities from -100% org damage to -90%, and increased strength damage taken to +90% Also increased their war support reduction effect by +50%
+- Reduced Staff Office Plan from +400% planning to +100% planning, but doubled it’s duration.
+- Added decisions for USA/Soviet to add 3 building slots in a random state with over 10/7 Infrastructure while at war, for the cost of 30 PP.
+- Added naval strike missions for all fighter planes allowing them to join naval battles and shoot down bombers.
+- Greatly lowered casualties in Naval Air-Air combat.
+- Removed type "infantry" from Cavalry so they can't benefit from both traits.
+- Added +10% attack for mechanized from combined arms expert trait ( same as cavalry get ) to make it a bit more worthwhile.
+- Increased submarine speed to double, and reduced distance to join naval battles to bring down time fleets are locked in convoy/sub battles.
+- Reverted changes to naval targeting nerf back to naval attack nerf.
+- Attempt to fix Carrier wing wipe bug by reducing air impact of bad weather.
+- Attempt to fix Carrier wing wipe bug by increasing NAV range to 4000 ( don't use land based planes at low efficiency or abuse them in portstrikes ).
+- Attempt to fix Carrier wing wipe bug by making naval bombers gain efficiency after zone switch really fast.
+- Attempt to fix Carrier wing wipe bug by making naval aircombat less lethal.
+- Attempt to fix Carrier wing wipe bug by making Air AI value efficiency more and naval strike less.
+
+
+Key previous features of the mod:
+- Lowered maximum battalions per division from 25 to 12 ( 24 width max for infantry/tanks ).
+- Cavalry suppression set to same as infantry ( 1 instead of 2 ).
+- Made winter much worse ( both penalties and weather ) and mud more common, mainly for the East Front.
+- Equipment reinforcement requests can take up to 30 days.
+- Planes have much reduced Naval attack values ( -60% land based, -40% carrier based ).
+- Heavy Fighters rebalanced to be similar in loss ratio vs fighters ( they cost a bit more ). 
+- Economy laws no longer modify Civilian Industry construction speed.
+- Economy laws now also modify Dockyard construction speed same way as Military Factories.
+- Occupation laws have higher penalties for factories & resources ( Harshest same as Gentle had in vanilla ).
+- Halved Airbase capacity to 100 per level
+- Lowered max bonus from outnumbering the enemy in the air from 3:1 to 2:1 planes
+- Doubled air accident chance
+- Rebalanced CAS to do less damage ( especially in bad terrain ), but have higher bonuses.
+- Japanese NFs The Divine Wind and NF Imperial Glory (Kamikazes) have more sensible requirements and effects.
+
+For complete previous changelog. See file in mod.
+Many thanks for CrouchingLemur for his great mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=710273161]More Unit Levels[/url]
+Many thanks for Chondrite for his great mods [url=https://steamcommunity.com/sharedfiles/filedetails/?id=704963980]Strategic View Adjustments[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1368202826] Allied Construction Projects[/url]
+Thanks for feedback, suggestions and bugspotting to the active MP groups I play with and for modding help from Myzael, Kallar, Beethoven and SpeedKat.
+
+Land:
+- Lowered maximum brigades per division from 25 to 12 ( 24 width max for infantry/tanks )
+- Lowered damage multiplier from attack surpassing DEF/BRK from x4 to x3
+- Changed so Land units going from Regular to Seasoned require same experience as next step instead of 3 times as much ( easier to become Seasoned )
+- Lowered base max planning from 50% to 40% bonus
+- Increased Planning bonus decay from 1% per day to 2% per day
+- Lowered Max Planning bonus possible with Grand Battleplan Doctrine from +60% to +40% and changed +10% planning speed to be a -40% penalty instead
+- Combat Width over penalty reduced to 1.5% per % over width instead of 2% ( should allow 2 x 24 width divisions to fight in a 40 width combat )
+- Cavalry suppression set to same as infantry ( 1 instead of 2 )
+- Snow, Deep Snow, Cold, Extreme Cold and Mud should now be more common and stay longer
+- Greatly increased penalties for Winter province weather ( up to -40% attack & -30% movement each from Extreme Cold and Deep Snow )
+- Made the key Barbarossa Regions (Belarus & areas around Stalingrad, Moscow, Leningrad) alot colder during winter (Dec-Feb) to make penalties common.
+- Further tweaked Finland and Northern Scandinavia to be colder during winter months.
+- Increased Finlands Sisu a bit <3
+- Increased rainfall to over most of the Eastern front during Mar-May and Sep-Nov to trigger mud seasons.
+- Added -30% attrition to Defence in Depth doctrine ( Mass assault )
+- Increased penalties for Snowing ( -20% org regain instead of -5% )
+- Increased base reinforcement chance from 2% to 4% ( so AI divisions without radio, or a streak of bad luck don't screw you over so much )
+- Equipment reinforcement requests can now take up to 30 days if far away or in bad supply. Capital and good supply = 3 days
+
+
+Air:
+- Halved Airbase capacity to 100 per level
+- Lowered Air Superiority base full penalty on DEF/BRK from -50% to -40%
+- Lowered Air Superiority base full penalty on speed from -50% to -30%
+- Lowered Air Superiority penalty on DEF/BRK significantly more on terrain ( for example -60% in Mountains/Jungles, -70% in urban )
+- Lowered Amount of CAS that can participate significantly more on terrain ( for example -60% in Mountains/Jungles, -70% in urban )
+- Land based plane Naval Attack lowered by -60%
+- Naval bombers (both type) air defense lowered by -30%
+- Carrier based NAV Naval Attack lowered by -40%
+- Carrier CAS Naval_strike_attack set to 75% of new CV NAV & Targeting higher then NAV.
+- Carrier FTR Naval_strike_attack set to 25-50% of new CV NAV
+- Carrier based plane cost increased from 20% higher to 40% higher then land based
+- Naval bombers (both type) & Strategic bombers give 0 Air Superiority
+- Heavy Fighters give 50% more Air Superiority
+- Heavy Fighters 40,44 models have more Agility and Air Defence ( leading to more similar loss ratios as 36 FTR vs HFTR )
+- Convoy AA value set to 0 ( to prevent them shooting down planes which never sink them )
+- Lowered max bonus from outnumbering the enemy in the air from 3:1 to 2:1 planes
+- Doubled air accident chance
+- Fixed a bug with air support causing it to provide half the stated bonus to divisions ( Listed as 30% base but in practice only gave 15% base )
+- AA and Radar takes half damage from bombing
+- Airbases takes 1/4:th damage from bombing
+- Synthetic Refineries take twice as much damage from bombing
+- Japan NF The Divine Wind (unlocking Kamikaze mission) now requires being at war with someone with a larger army
+- Japan NF Imperial Glory (unlocking Ohka) now requires 1944 tech rocket engines
+
+Navy:
+- Convoy sub attack value set to 0.5 ( 5% of 1922 DD )
+
+Economy:
+- Economy laws no longer modify Civilian Industry construction speed
+- Economy laws now also modify Dockyard construction speed same way as Military Factories
+- Changed occupation laws increasing penalties for factories & resources ( Harshest same as Gentle had previously ), but reducing penalty to manpower
+- Reduced oil from Synthetic Refinery from 7 to 5 per level
+
+
+
+

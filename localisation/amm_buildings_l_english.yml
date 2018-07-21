@@ -1,0 +1,13 @@
+﻿l_english:
+ synthetic_refinery_rubber:0 "Synthetic Rubber Plant"
+ synthetic_refinery_rubber_plural:0 "Synthetic Rubber Plants"
+ synthetic_refinery_rubber_desc:0 "This takes up a shared slot, gives a nice Plant"
+ #synthetic_refinery_rubber_desc:0 "This building provides the state with $VALUE$ £resources_strip|$FRAME$"
+ synthetic_refinery_rubber_amount:0 "$VALUE|Y0=$"
+ synthetic_refinery_rubber_resource:0 "£resources_strip|$FRAME$" 
+ aluminium_plant:0 "Aluminium Plant"
+ aluminium_plant_plural:0 "Aluminium Plants"
+ aluminium_plant_desc:0 "This takes up a shared slot, gives a nice Plant"
+ aluminium_plant_amount:0 "$VALUE|Y0=$"
+ aluminium_plant_resource:0 "£resources_strip|$FRAME$"
+ 

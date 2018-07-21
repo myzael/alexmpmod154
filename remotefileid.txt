@@ -1,0 +1,2 @@
+remote_file_id="1225601850"
+picture="tigerkatt.jpg"

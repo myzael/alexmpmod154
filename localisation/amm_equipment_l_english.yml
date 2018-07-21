@@ -1,0 +1,24 @@
+﻿l_english:
+ lvt_equipment:0 "LVT"
+ lvt_equipment_desc:0 "Landing Vehicle Tracked is Amphibious Mechanized equipment used by Marines to quickly cross exposed beaches after contested landings, and provide firesupport"
+
+ ENG_lvt_equipment_1:0 "LVT-2 Buffalo II"
+ ENG_lvt_equipment_1_short:0 "LVT-2 Buffalo II"
+ ENG_lvt_equipment_2:0 "LVT-4 Neptune"
+ ENG_lvt_equipment_2_short:0 "LVT-4 Neptune"
+
+ USA_lvt_equipment_1:0 "LVT-1 Alligator"
+ USA_lvt_equipment_1_short:0 "LVT-1 Alligator"
+ USA_lvt_equipment_2:0 "LVT-4 Water Buffalo"
+ USA_lvt_equipment_2_short:0 "LVT-4 Water Buffalo"
+ 
+ CAN_lvt_equipment_1:0 "LVT-1 Alligator"
+ CAN_lvt_equipment_1_short:0 "LVT-1 Alligator"
+ CAN_lvt_equipment_2:0 "LVT-4 Water Buffalo"
+ CAN_lvt_equipment_2_short:0 "LVT-4 Water Buffalo"
+
+ lvt_equipment_1:0 "Basic LVT"
+ lvt_equipment_1_desc:0 "Landing Vehicle Tracked is amphibious Mechanized equipment used by Marines to quickly cross exposed beaches after contested landings, and provide firesupport"
+ lvt_equipment_2:0 "Improved LVT"
+ lvt_equipment_2_desc:0 "Landing Vehicle Tracked is amphibious Mechanized equipment and light armor to provide heavier firesupport"
+ 

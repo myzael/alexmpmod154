@@ -1,0 +1,36 @@
+﻿###########################
+# Alex Multi Mod Soviet Events
+###########################
+
+add_namespace = amm_soviet
+
+
+
+country_event = {
+	id = amm_soviet.1
+	title = amm_soviet.1.t
+	desc = amm_soviet.1.d
+	picture = GFX_report_event_dead_soldiers
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		has_war = yes
+		SOV = { has_war_with = GER }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = amm_soviet.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = -10
+		add_timed_idea = {
+				idea = state_of_chock
+				days = 90
+			}
+		effect_tooltip = {
+		}
+	}
+}
