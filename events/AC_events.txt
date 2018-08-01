@@ -58,21 +58,6 @@ country_event = {
 				else_if = { limit = { check_variable = { AC_assigned_factories = 10 } }
 					activate_decision = AC_construction_CICx10_decision
 				}
-				else_if = { limit = { check_variable = { AC_assigned_factories = 11 } }
-					activate_decision = AC_construction_CICx11_decision
-				}
-				else_if = { limit = { check_variable = { AC_assigned_factories = 12 } }
-					activate_decision = AC_construction_CICx12_decision
-				}
-				else_if = { limit = { check_variable = { AC_assigned_factories = 13 } }
-					activate_decision = AC_construction_CICx13_decision
-				}
-				else_if = { limit = { check_variable = { AC_assigned_factories = 14 } }
-					activate_decision = AC_construction_CICx14_decision
-				}
-				else_if = { limit = { check_variable = { AC_assigned_factories = 15 } }
-					activate_decision = AC_construction_CICx15_decision
-				}
 
 				### political power cost
 
@@ -228,7 +213,7 @@ country_event = { # RADAR construction
 
 				set_variable = { AC_assigned_factories = num_of_civilian_factories_available_for_projects }
 
-				clamp_variable = { var = AC_assigned_factories min = 1 max = 15 }
+				clamp_variable = { var = AC_assigned_factories min = 1 max = 10 }
 
 				set_variable = { AC_build_amount = 1 }
 			}

@@ -24,18 +24,7 @@
 
  AC_construction_CICx10_decision:0 "Constructing [?AC_build_amount_queue]x [AC_GetConstructionType] in [From.GetName]"
  AC_construction_CICx10_decision_desc:0 "Total time to finish queue: [?AC_total_construction_duration] days\nTotal construction speed modifier: x[?AC_construction_speed_display]\n\nRight click to see the target state."
- AC_construction_CICx11_decision:0 "Constructing [?AC_build_amount_queue]x [AC_GetConstructionType] in [From.GetName]"
- AC_construction_CICx11_decision_desc:0 "Total time to finish queue: [?AC_total_construction_duration] days\nTotal construction speed modifier: x[?AC_construction_speed_display]\n\nRight click to see the target state."
- AC_construction_CICx12_decision:0 "Constructing [?AC_build_amount_queue]x [AC_GetConstructionType] in [From.GetName]"
- AC_construction_CICx12_decision_desc:0 "Total time to finish queue: [?AC_total_construction_duration] days\nTotal construction speed modifier: x[?AC_construction_speed_display]\n\nRight click to see the target state."
- AC_construction_CICx13_decision:0 "Constructing [?AC_build_amount_queue]x [AC_GetConstructionType] in [From.GetName]"
- AC_construction_CICx13_decision_desc:0 "Total time to finish queue: [?AC_total_construction_duration] days\nTotal construction speed modifier: x[?AC_construction_speed_display]\n\nRight click to see the target state."
- AC_construction_CICx14_decision:0 "Constructing [?AC_build_amount_queue]x [AC_GetConstructionType] in [From.GetName]"
- AC_construction_CICx14_decision_desc:0 "Total time to finish queue: [?AC_total_construction_duration] days\nTotal construction speed modifier: x[?AC_construction_speed_display]\n\nRight click to see the target state."
 
- AC_construction_CICx15_decision:0 "Constructing [?AC_build_amount_queue]x [AC_GetConstructionType] in [From.GetName]"
- AC_construction_CICx15_decision_desc:0 "Total time to finish queue: [?AC_total_construction_duration] days\nTotal construction speed modifier: x[?AC_construction_speed_display]\n\nRight click to see the target state."
- 
  AC_construction_CANCEL_decision:0 "Cancel Construction Project"
  AC_construction_CANCEL_decision_desc:0 "Refunds the political power cost for the unfinished buildings."
  

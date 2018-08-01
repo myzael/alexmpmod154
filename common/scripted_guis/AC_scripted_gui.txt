@@ -112,7 +112,7 @@ scripted_gui = {
 
 			AC_assigned_factories_increase_button_click = {
 				ROOT = {
-					if = { limit = { check_variable = { AC_assigned_factories < 15 } }
+					if = { limit = { check_variable = { AC_assigned_factories < 10 } }
 						add_to_variable = { AC_assigned_factories = 1 }
 					}
 					else = {
@@ -123,7 +123,7 @@ scripted_gui = {
 
 			AC_assigned_factories_increase_button_shift_click = {
 				ROOT = {
-					if = { limit = { check_variable = { AC_assigned_factories < 11 } }
+					if = { limit = { check_variable = { AC_assigned_factories < 6 } }
 						add_to_variable = { AC_assigned_factories = 5 }
 					}
 					else = {
@@ -138,7 +138,7 @@ scripted_gui = {
 						add_to_variable = { AC_assigned_factories = -1 }
 					}
 					else = {
-						set_variable = { AC_assigned_factories = 15 }
+						set_variable = { AC_assigned_factories = 10 }
 					}
 				}
 			}
